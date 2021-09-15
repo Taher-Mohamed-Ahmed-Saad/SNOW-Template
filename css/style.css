@@ -1,0 +1,416 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+
+/*********************** Start Header Section ****************************/
+/***************  Start Header Head  ****************/
+
+section.header {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top: 30px;
+    position: relative;
+
+}
+
+section.header .container .header-head ul {
+    list-style: none;
+    float: right;
+    margin-top: -2px;
+}
+
+section.header .container .header-head ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+section.header .container .header-head ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/***************  End Header Head  ****************/
+/*************  Start Header Content  ****************/
+section.header .container .header-content {
+    width: 700px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+}
+
+section.header .container .header-content h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+section.header .container .header-content p {
+    color: #fff;
+    font-size: 20px;
+    margin: 45px 0;
+
+}
+
+section.header .container .header-content button {
+    font-size: 15px;
+    width: 180px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+section.header .container .header-content button:first-child {
+    color: black;
+    background: #fff;
+}
+
+section.header .container .header-content button:hover {
+    background: rgb(185, 185, 185);
+}
+
+section.header .container .header-content button:last-child {
+    color: #fff;
+    background: #8be2e5;
+}
+
+section.header .container .header-content button:last-child:hover {
+    background: #6dc1c4;
+}
+
+
+/*************  End Header Content  ****************/
+
+
+/*********************** End Header Section ****************************/
+
+/*********************** Start BeFirst Section ****************************/
+
+section.befirst {
+
+    background-image: url(../images/be-the-first-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    background-attachment: fixed;
+    padding-top: 10%;
+    color: #fff;
+
+}
+
+section.befirst .container .text h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+section.befirst .container .text p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+section.befirst .container .img img {
+    width: 400px;
+}
+
+/*********************** End BeFirst Section ****************************/
+
+/*********************** Start Feature Section ****************************/
+
+section.feature {   
+    text-align: left;
+    display: flex;
+    padding: 150px 0 100px 0 ;
+}
+
+section.feature .container div {
+    width: 30%;
+    margin: 0;
+    float: left;
+}
+
+section.feature .container div:nth-child(1) {
+    margin-right: 5%;
+}
+
+section.feature .container div:nth-child(2) {
+    margin-right: 5%;
+}
+
+section.feature .container hr {
+    border: 0;
+    height: 5px;
+}
+
+section.feature .container div:nth-child(1) hr {
+    background: #6d3f96;
+}
+
+section.feature .container div:nth-child(2) hr {
+    background: #70cbce;
+}
+
+section.feature .container div:nth-child(3) hr {
+    background: #fdc05d;
+}
+
+section.feature .container h3 {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.feature .container p {
+    line-height: 1.4;
+    color: darkgrey;
+}
+
+/*********************** End Feature Section ****************************/
+
+/*********************** Start Pricing Section ****************************/
+
+section.pricing {
+    height: 500px;
+    background: #70cbce;
+    text-align: center;
+    padding: 150px 0;
+}
+
+section.pricing .container > h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+section.pricing .container > p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+
+section.pricing .pricing-flex {
+    display: flex;
+    justify-content: center;
+}    
+
+section.pricing .pricing-flex .flex-item {
+    width: 33%;
+}
+
+section.pricing .pricing-flex .flex-item ul{
+    transition: all 0.5s ease-in-out ;
+}
+
+section.pricing .pricing-flex .flex-item ul:hover{
+    margin-top: -10px;
+}
+
+section.pricing .pricing-flex .flex-item ul:hover li:nth-of-type(2){
+    background:  #333;
+}
+
+section.pricing .pricing-flex .flex-item:nth-of-type(1) , 
+section.pricing .pricing-flex .flex-item:nth-of-type(3) {
+    margin-top: 20px;
+}
+
+section.pricing .pricing-flex .flex-item li:first-child{
+
+    background: #231f20;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section.pricing .pricing-flex .flex-item li:nth-of-type(2) {
+    background: #231f20;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out ;
+
+}
+
+
+section.pricing .pricing-flex .flex-item li:nth-of-type(2) small {
+    color: #929496;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+section.pricing .pricing-flex .flex-item li p{
+    color: #929496;
+    font-size: 12px;
+    padding: 20px;
+    background: #fff;
+}
+
+section.pricing .pricing-flex .flex-item li .list-small{
+    background: #fff;
+    border-top: 1px rgb(235, 227, 227) solid  ;
+    padding: 20px;
+    font-weight: bold;
+}
+
+section.pricing button{
+    width: 100%;
+    color: #70cbce;
+    background: #fff;
+    border: 0;
+    border-top: 1px rgb(235, 227, 227) solid  ;
+    outline: 0;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out ;
+}
+section.pricing button:hover{
+    background: #ebe9e9;
+}
+
+/*********************** End Pricing Section ****************************/
+/*********************** Start Invite Section ****************************/
+
+section.invite {
+    background: #f5f5f5;
+    height: 350px;
+    padding: 125px 0;
+    text-align: center;
+}
+
+section.invite i {
+    color: #70cbce;
+    border: 3px solid #70cbce;
+    border-radius: 100%;
+    padding: 22px;
+
+}
+
+section.invite h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+section.invite p {
+
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+section.invite input {
+    padding: 20px 15px;
+    outline: none;
+    border: 0;
+}
+
+section.invite input[type=text] {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 280px;
+    border-radius: 10px;
+
+}
+
+section.invite input[type=text]::-webkit-input-placeholder {
+
+    color: #aaa;
+}
+
+section.invite input[type=submit] {
+
+    width: 180px;
+    background: #70cbce;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*********************** End Invite Section ****************************/
+/*********************** Start Info Section ****************************/
+
+section.info {
+
+    padding: 150px 0 30px 0;
+}
+
+section.info hr {
+    height: 3px;
+    border: 0;
+    background: #E8EAEA;
+}
+
+section.info .infos {
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+section.info .infos div {
+    margin-right: 20px;
+}
+
+section.info img {
+    min-width: 100%;
+}
+
+section.info p {
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*********************** End Info Section ****************************/
+
+
+/*********************** Start Footer Section ****************************/
+
+footer {
+    padding: 70px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .container div:first-child span {
+    margin-right: 10px;
+}
+
+footer .container div:last-child span {
+    color: #ccc;
+}
+
+/*********************** End Footer Section ****************************/
